@@ -1,0 +1,4 @@
+service vendor.enhance_test /vendor/bin/enhance_test
+    class main
+    user system
+    group system radio shell

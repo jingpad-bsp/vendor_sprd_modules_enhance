@@ -1,0 +1,5 @@
+service vendor.enhance_check /vendor/bin/enhance_check.sh
+    class early_hal
+    user system
+    group system
+    oneshot
